@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\GalgjeAchtergrond1.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond10.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond11.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond2.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond3.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond4.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond5.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond6.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond7.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond8.jpg" />
+    <None Remove="Assets\GalgjeAchtergrond9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\GalgjeAchtergrond1.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond10.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond11.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond2.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond3.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond4.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond5.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond6.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond7.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond8.jpg" />
+    <Resource Include="Assets\GalgjeAchtergrond9.jpg" />
+  </ItemGroup>
+
+</Project>
